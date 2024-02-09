@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanisha Gupta Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/f77ad8055a.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+</head>
+<body>
+    <!----------------------------------------Header------------------------------------------>
+    <div id="header">
+<div class="container">
+    <nav>
+        <img src="tg2.png" alt="logo" style="width:280px; height:65px;margin-left: -7%;">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a> </li>
+            <li><a href="#about">About</a> </li>
+            <li><a href="#services">Domain</a> </li>
+            <li><a href="#portfolio">Portfolio</a> </li>
+            <li><a href="#contact">Contact</a> </li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="note">
+        <h1>Machine Learning Enthusiast</span></h1>
+        <h2>Hey, I'm Tanisha Gupta<br><h3>Designing Tomorrow, One Equation at a Time .....</h3> </h2>
+    </div>
+</div>
+    </div>
+    <!---------------------------------------------About----------------------------------------->
+
+
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="abtcol1">
+                <img src="tg2.jpg">
+            </div>
+            <div class="abtcol2">
+                <h1> About Me</h1>
+                <p>I am Tanisha Gupta currently persuing Computer Science with specalization in AIML, actively engaged as a 
+                    Google Cloud Innovator Member, Women Techmaker Member at Google, and an Amazon WOW Mentee. 
+                    Passionate about exploring the exciting realms of Artificial Intelligence, Machine Learning, and data science. 
+                    Proficient in Python and Master in Data Structures and Algorithms in Java.
+                    
+                                 
+                 </p>
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p> 
+                    <p class="tab-links" onclick="opentab('experience')">Certifications</p> 
+                    <p class="tab-links" onclick="opentab('education')">Education</p> 
+                    
+                 </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>  Machine Learning</span><br> Deveoping Predictions/Recommendation Models  </li>
+                        <li><span>  Data Visualisation</span><br> Familiar with tools such as Power BI  </li>
+                        <li><span>  Cloud Computing</span><br> Certified AWS Cloud Practitioner  </li>
+                        <li><span>  Front-End Developer</span><br> Architecting and Developing Websites  </li>
+                        <li><span>  SQL</span><br> Efficient in handelling Databases through queries</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span> AWS Cloud Practitioner </span><br> Learned basic Cloud Concepts  </li>
+                        <li><span> Microsoft Power Platform App Maker</span><br>  Data visualisation using Power BI </li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span> 2021</span><br> Completed Schooling from Ryan Internation School Bhopal </li>
+                        <li><span> 2025</span><br> B.Tech CSE From Vit Bhopal </li>
+                        <li><span> </span><br></li>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    </div>
+   </div>
+<!-------------------------------------- services----------------------------->
+<div id="services">
+    <div class="container">
+            <h1 class="sub-title"> My Domains</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Machine Learning</h2>
+                    <p>
+                        Machine learning (ML) a type of artificial intelligence (AI) 
+                        focused on building computer systems that learn from data. The broad range of techniques ML 
+                        encompasses enables software applications to improve their performance over time.Machine learning algorithms are trained to 
+                        find relationships and patterns in data. They use historical data as input to make predictions, classify information, cluster 
+                        data points, reduce dimensionality and even help generate new content, as demonstrated by new ML-fueled applications such as 
+                        ChatGPT, Dall-E 2 and GitHub Copilot.
+                    </p>
+                    <a href="#"> Learn more</a>
+
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Data Analysis</h2>
+                    <p>
+                        Process of systematically applying statistical and/or logical techniques to describe 
+                        and illustrate, condense and recap, and evaluate data.It Inspects, cleans, transforms, and models data to extract insights and support 
+                        decision-making. As a data analyst, my role involves dissecting vast datasets, unearthing hidden patterns, and translating numbers 
+                        into actionable information.
+                      
+                    </p>
+                    <a href="#"> Learn more</a>
+
+                    
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store" ></i>
+                    <h2>Front End Development</h2>
+                    <p>
+                        Process of building components that interact with users. Examples are the user interface, 
+                        buttons, user-entered data, websites, and user experience (UX) features.
+                    </p>
+                    <a href="#"> Learn more</a>
+
+                    
+                </div>
+            </div>
+    </div>
+</div>
+
+<!-- --------------------------------Portfolio-------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="moviesystem.jpg" >
+                <div class="layer">
+                    <h3>Movie Recommendation System</h3>
+                    <p>A content based movie recommender system using cosine similarity</p>
+                        <a href="https://github.com/tanishagupta15/Movie-Recommendation-System"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+
+            </div>
+            <div class="work">
+                <img src="aaa.jpg   " >
+                <div class="layer">
+                    <h3>Security Surveillance System</h3>
+                    <p>frame differnce technique of background subtraction for motion detection For 
+                        image enhancement, techniques such as guassian blur and converting to grayscale 
+                        has been used.</p>
+                        <a href="https://github.com/tanishagupta15/Security-Surveillance-System"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="wap.jpg" >
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>weather application that will provide users with real-time weather information, forecasts, and other weather-related data, 
+                        which can help them make better decisions about their day-to-day activities</p>
+                        <a href="https://tanishagupta15.github.io/weather-app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="#" class="btn">See More </a>
+    </div>
+
+</div>
+<!-----------------------------------contact-------------------------->
+<div id="contact">
+
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                 <h1 class="sub-title"> Contact Me</h1>
+                 <p><i class="fa-solid fa-paper-plane"></i>tanisha15204@gmail.com.com</p>
+                 <p><i class="fa-solid fa-square-phone"></i>012345678</p>
+                 <div class="social-icons">
+                    <a href="#" ><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/tanishaagupta_/" ><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#" ><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/tanisha-gupta-1670b6231/" ><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+<a href="resume.pdf" download class="btn btn2"> Download CV</a>
+                 </div>
+            <div class="contact-right">
+                <form name="#">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="#"></textarea>
+                    <button type="  "  class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"><span>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Tanisha Gupta <i class="fas fa-heart"></i> all rights reserved. </p>
+    </div>
+</div>
+
+
+
+ <script> 
+  
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>  
+<script>
+var sidemeu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemeu.style.right = "0";
+}
+function closemenu(){
+    sidemeu.style.right = "-200px";
+}
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyO7U6qpYlVCNLr1vpAKd9-2eeZdPD2ltrngT8a-ZvQeP-0AJSwXh4VJU9BLBpTjAHg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
