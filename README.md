@@ -1,4 +1,4 @@
-Tanisha Gupta's Personal Portfolio
+###Tanisha Gupta's Personal Portfolio
 
 Welcome to Tanisha Gupta's personal portfolio GitHub repository! This repository showcases Tanisha's projects, skills, and experiences. 
 
